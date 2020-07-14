@@ -1,6 +1,6 @@
-A list of machine learning related symbols and their Unicode values.
+Currently contains a list of machine learning related symbols and their Unicode values.
 
-Available at: http://melanie-brennan.github.io
+Available to view at: http://melanie-brennan.github.io
 
-A PDF version is available for download: http://melanie-brennan.github.io/machine_learning_symbols.pdf
+PDF version: http://melanie-brennan.github.io/machine_learning_symbols.pdf
 
