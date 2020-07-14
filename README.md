@@ -1,4 +1,4 @@
-A list of machine learning related symbols and their Unicodes
+A list of machine learning related symbols and their Unicode values.
 
 Available at: http://melanie-brennan.github.io
 
