@@ -28,6 +28,8 @@ margin: 0;
 #outer {
   width:100%;
   background-color: #009090;
+  position:fixed;
+  top:0;
 }
 
 .alignleft {
@@ -50,9 +52,17 @@ margin: 0;
 
 #Dropdown menu CSS
 
+.fixedtop {
+  position:fixed;
+  top:0;
+}
+
+
 .navbar {
   overflow: hidden;
-  background-color: #FFFFFF;
+  background-color: #009090;
+
+
 }
 
 .navbar a {
@@ -144,4 +154,9 @@ ul {
    -moz-column-gap: 20px;
    column-count: 2;
    column-gap: 20px;
+}
+
+img {
+    width: 49%;
+    height: auto;
 }

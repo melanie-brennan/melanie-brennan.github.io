@@ -1,1 +1,23 @@
-document.write('<div id="outer"><div id="inner"><p class="alignleft">MELANIE BRENNAN</p><div class = "navbar"><a class="alignright" href="#home">ABOUT</a>	<div class="dropdown"><button class="dropbtn" onclick="myFunction()">PROJECTS</button><div class="dropdown-content" id="myDropdown"><a href="projects.html#project1">Anaglyphs</a><a href="#">Stereoscope Processing</a><a href="#">Local Area ??</a></div></div> 	<div class="dropdown"><button class="dropbtn" onclick="myFunction()">REVIEWS</button><div class="dropdown-content" id="myDropdown">	<a href="review_ann.html">Artificial Neural Networks</a<a href="review_gan.html">GAN</a><a href="review_regression.html">Regression</a><a href="review_rl">Reinforcement Learning</a>	<a href="review_svm">Support Vector Machines</a></div></div><div class="dropdown"><button class="dropbtn" onclick="myFunction()">CODE</button><div class="dropdown-content" id="myDropdown"><a href="#">Numpy</a><a href="#">Deep Learning</a><a href="#">TensorFlow</a></div></div> 	</div></div></div><div style="clear: both;"></div>')
+root_folder = "C:/Users/user/MelsThings/github_repos/melanie-brennan.github.io/"
+
+about_link = root_folder.concat("about.html")
+code_link = root_folder.concat("code.html")
+code1_link = root_folder.concat("code.html#code1")
+code2_link = root_folder.concat("code.html#code2")
+code3_link = root_folder.concat("code.html#code3")
+notes_link = root_folder.concat("notes.html")
+note1_link = root_folder.concat("notes/notation/symbols_relevant_to_machine_learning.html")
+note2_link = root_folder.concat("notes/ml_abbreviations/machine_learning_abbreviations.html")
+projects_link = root_folder.concat("index.html")
+project1_link = root_folder.concat("index.html#project1")
+project2_link = root_folder.concat("index.html#project2")
+project3_link = root_folder.concat("index.html#project3")
+project4_link = root_folder.concat("index.html#project4")
+
+function loadPageFunction(new_link) {
+  window.location.href = new_link 
+}
+
+document.write('<div id="outer"><div id="inner"><h1 class="alignleft">MELANIE BRENNAN</h1><div class = "navbar"><a class="alignright" href="'+about_link+'">ABOUT</a><div class="dropdown"><button class="dropbtn" onclick="myFunction()">NOTES</button><div class="dropdown-content" id="myDropdown"><a href="'+note1_link+'">Symbols relevant to machine learning</a><a href="'+note2_link+'">Machine Learning Abbreviations</a></div></div>	<div class="dropdown"><button class="dropbtn" onclick="loadPageFunction(code_link)">CODE</button><div class="dropdown-content" id="myDropdown"><a href="'+code1_link+'">Basics</a><a href="'+code2_link+'">Image Processing</a><a href="'+code3_link+'">Dunno!!!</a></div></div><div class="dropdown"><button class="dropbtn" onclick="loadPageFunction(projects_link)">PROJECTS</button><div class="dropdown-content" id="myDropdown"><a href="'+project1_link+'">Australian local population maps</a><a href="'+project2_link+'">Anaglyphs from non-stereo images</a><a href="'+project3_link+'">Graph visualisation</a><a href="'+project4_link+'">Supervised machine learning models</a></div></div>  	</div></div></div><div style="clear: both;"></div>')
+
+
