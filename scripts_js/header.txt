@@ -1,6 +1,6 @@
 //root_folder = "C:/Users/user/MelsThings/github_repos/melanie-brennan.github.io/"
-//root_folder = "https://melanie-brennan.github.io/"
-root_folder = ""
+root_folder = "https://melanie-brennan.github.io/"
+
 
 about_link = root_folder.concat("about.html")
 code_link = root_folder.concat("code.html")
