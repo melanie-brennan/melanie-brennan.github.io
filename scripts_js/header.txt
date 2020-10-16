@@ -1,5 +1,5 @@
-//root_folder = "C:/Users/user/MelsThings/github_repos/melanie-brennan.github.io/"
-root_folder = "https://melanie-brennan.github.io/"
+root_folder = "C:/Users/user/MelsThings/github_repos/melanie-brennan.github.io/"
+//root_folder = "https://melanie-brennan.github.io/"
 
 
 about_link = root_folder.concat("about.html")
@@ -20,6 +20,6 @@ function loadPageFunction(new_link) {
   window.location.href = new_link 
 }
 
-document.write('<div id="outer"><div id="inner"><h1 class="alignleft">MELANIE BRENNAN</h1><div class = "navbar"><a class="alignright" href="'+about_link+'">ABOUT</a><div class="dropdown"><button class="dropbtn" onclick="myFunction()">NOTES</button><div class="dropdown-content" id="myDropdown"><a href="'+note1_link+'">Symbols relevant to machine learning</a><a href="'+note2_link+'">Machine Learning Abbreviations</a></div></div>	<div class="dropdown"><button class="dropbtn" onclick="loadPageFunction(code_link)">CODE</button><div class="dropdown-content" id="myDropdown"><a href="'+code1_link+'">Basics</a><a href="'+code2_link+'">Image Processing</a><a href="'+code3_link+'">Dunno!!!</a></div></div><div class="dropdown"><button class="dropbtn" onclick="loadPageFunction(projects_link)">PROJECTS</button><div class="dropdown-content" id="myDropdown"><a href="'+project1_link+'">Australian local population maps</a><a href="'+project2_link+'">Anaglyphs from non-stereo images</a><a href="'+project3_link+'">Graph visualisation</a><a href="'+project4_link+'">Supervised machine learning models</a></div></div>  	</div></div></div><div style="clear: both;"></div>')
+document.write('<div id="outer"><div id="inner"><div class="alignleft" >MELANIE BRENNAN</div><div class = "navbar"><a class="alignright" href="'+about_link+'">ABOUT</a><div class="dropdown"><button class="dropbtn" onclick="myFunction()">NOTES</button><div class="dropdown-content" id="myDropdown"><a href="'+note1_link+'">Symbols relevant to machine learning</a><a href="'+note2_link+'">Machine Learning Abbreviations</a></div></div>	<div class="dropdown"><button class="dropbtn" onclick="loadPageFunction(code_link)">CODE</button><div class="dropdown-content" id="myDropdown"><a href="'+code1_link+'">Basics</a><a href="'+code2_link+'">Image Processing</a><a href="'+code3_link+'">Dunno!!!</a></div></div><div class="dropdown"><button class="dropbtn" onclick="loadPageFunction(projects_link)">PROJECTS</button><div class="dropdown-content" id="myDropdown"><a href="'+project1_link+'">Australian local population maps</a><a href="'+project2_link+'">Anaglyphs from non-stereo images</a><a href="'+project3_link+'">Graph visualisation</a><a href="'+project4_link+'">Supervised machine learning models</a></div></div>  	</div></div></div><div style="clear: both;"></div>')
 
 
