@@ -121,6 +121,10 @@ margin: 0;
   display: block;
 }
 
+.container {
+  border-color: pink;
+  border-width: 4px;
+}
 
 .category_heading {
   border-style: solid;

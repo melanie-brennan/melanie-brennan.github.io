@@ -1,81 +1,138 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
   <head>
+    <!-- Required meta tags -->
     <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="css/css_style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Melanie Brennan: Projects</title>
-  </head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/navbar-fixed/">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+ <!-- Custom styles for this page -->
+    <link rel="stylesheet" href="css/custom.css">
+
+    <title>Hello, world!</title>
+
+    </head>
+
   <body>
+    <!--Navigation bar-->
+    <nav class="navbar navbar-dark navbar-expand-md fixed-top">
+     <div class = "container">
+      <a class="navbar-brand" href="#">MELANIE BRENNAN</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav ml-auto">
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">PROJECTS</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown01">
+              <a class="dropdown-item" href="#project1">Project 1</a>
+              <a class="dropdown-item" href="#project2">Project 2</a>
+              <a class="dropdown-item" href="#project3">Project 3</a>
+              <a class="dropdown-item" href="#project4">Project 4</a>
+            </div>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">CODE</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown01">
+              <a class="dropdown-item" href="#">Code 1</a>
+              <a class="dropdown-item" href="#">Code 2</a>
+              <a class="dropdown-item" href="#">Code 3</a>
+            </div>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">NOTES</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown01">
+              <a class="dropdown-item" href="#">Note 1</a>
+              <a class="dropdown-item" href="#">Note 2</a>
+              <a class="dropdown-item" href="#">Note 3</a>
+            </div>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">ABOUT</a>
+          </li>
+
+        </ul>
+
+      </div>
+     </div>
+    </nav>
+    <!--end of Navigation bar-->    
+
+    <main role="main" class="container">
+
+         <!-- Project One -->
+           <div id="project1">
+             <div class ="category_heading" >
+               <h4 class="left"> Australian local population maps </h4> 
+               <a href="https://github.com/melanie-brennan/australian_local_population_maps" class="right"><img src="images/GitHub-Mark-32px.png" alt="Github logo"  ></a> 
+             </div>
+             <div class = "category" > 
+               <p>Australian Bureau of Statistics 2016 Census and map data were used to make population density maps of local areas in NSW.</p>
+	       <img  class="halfwidth left" src="images/Maroubra.png" alt="Local population map of Maroubra, NSW" >
+	       <img class="halfwidth right" src="images/Moree.png" alt="Local population map of Moree, NSW">
+             </div>
+          </div> <!-- end of project 1 div -->
+
+         <!-- Project Two -->
+         <div id="project2">
+           <div class ="category_heading">
+              <h4 class = "left">Anaglyphs from non-stereo images </h4>
+              <a href="https://github.com/melanie-brennan/anaglyphs_from_non_stereo_images" class="right">  <img src="images/GitHub-Mark-32px.png" alt="Github logo"></a>
+           </div>
+           <div class = "category" > 
+             <p>  Two images were taken with a handheld camera and then rectified to create an anaglyph.  Use red/cyan glasses to view the 3D effect.</p>
+	     <img class="fullwidth" src="images/motorbike_small.jpg" alt="Motorbike anaglyph" >
+	     <img class="fullwidth" src="images/cyclops_small.jpg" alt="Cyclops statue anaglyph">
+           </div>
+         </div> <!-- end of project 2 div -->
+
+         <!-- Project Three -->
+         <div id="project3"> </div>
+           <div class ="category_heading">
+             <h4 class="left"> Graph visualisation </h4>
+             <a href="https://github.com/melanie-brennan/graph_visualisation" class="right">  <img src="images/GitHub-Mark-32px.png" alt="Github logo"></a>
+           </div>
+           <div class = "category" > 
+             <p>  Visualises pairings between the most collaborative author and other authors in papers submitted to Arxiv’s General Relativity and Quantum Cosmology category.</p>
+	     <img class="halfwidth left" src="images/graph_collaborators_id.png" alt="Graph of collaborator's ids" >
+	     <img class="halfwidth right" src="images/graph_collaborators_numbers.png" alt="Graph of collaborator's numbers">
+           </div> 
+         </div> <!-- end of project 3 div -->
 
 
-  <script language="javascript" type="text/javascript" src="scripts_js/header.txt"></script>
-	
-  <div id = "outer_content">
-   <div id = "inner_content">
+         <!-- Project Four -->
+        <div id="project4">
+          <div class ="category_heading" >
+            <h4 class="left"> Supervised machine learning models </h4>
+            <a href="https://github.com/melanie-brennan/supervised_machine_learning_models" class="right"> <img src="images/GitHub-Mark-32px.png"></a>
+          </div>
+         <div class = "category" > 
+           <p>Using data from the High Time Resolution Universe Survey (South), five supervised machine learning algorithms are used to classify pulsar and non-pulsar stars.</p>
+	   <img class="halfwidth left"src="images/LC_Random_Forest_error_rate_metric.png" alt="Learning curve displaying random forest error with an increasing propotion of training data" >
+	   <img class="halfwidth right"src="images/ROC_Random_Forest_Classifier.png" alt="ROC curve for random forest classifier">
+	   <img class="halfwidth left"src="images/LC_Support_Vector_Machine_error_rate_metric.png" alt="Learning curve displaying support_vector_machine error with an increasing propotion of training data" >
+	   <img class="halfwidth right"src="images/ROC_Support_Vector_Machine_Classifier.png" alt="ROC curve for support vector machine classifier">
+         </div>
+       </div> <!-- end of project 4 div --> 
+         
 
-      <!-- Project One -->
-      <div id="project1"> </div>
-      <h3 class ="category_heading" >Australian local population maps 
-          <a href="https://github.com/melanie-brennan/australian_local_population_maps" class="alignright">
-          <img src="images/GitHub-Mark-64px.png" alt="Github logo" width="64" height="64"></a>
-      </h3> 
-       <div class = "category" > 
-         <p>Australian Bureau of Statistics 2016 Census and map data were used to make population density maps of local areas in NSW.</p>
-	 <img src="images/Maroubra.png" alt="Local population map of Maroubra, NSW" >
-	 <img src="images/Moree.png" alt="Local population map of Moree, NSW">
-       </div> 
+    </main>
 
 
-      <!-- Project Two -->
-      <div id="project2"> </div>
-      <h3 class ="category_heading">Anaglyphs from non-stereo images 
-           <a href="https://github.com/melanie-brennan/anaglyphs_from_non_stereo_images" class="alignright">  
-           <img src="images/GitHub-Mark-64px.png" alt="Github logo" width="64" height="64"></a>
-      </h3> 
-       <div class = "category" > 
-         <p>  Two images were taken with a handheld camera and then rectified to create an anaglyph.  Use red/cyan glasses to view the 3D effect.</p>
-	 <img class="bigimage" src="images/motorbike_small.jpg" alt="Motorbike anaglyph" >
-	 <img class="bigimage" src="images/cyclops_small.jpg" alt="Cyclops statue anaglyph">
-       </div> 
-
-	
-      <!-- Project Three -->
-      <div id="project3"> </div>
-      <h3 class ="category_heading">Graph visualisation
-           <a href="https://github.com/melanie-brennan/graph_visualisation" class="alignright">  
-           <img src="images/GitHub-Mark-64px.png" alt="Github logo" width="64" height="64"></a>
-      </h3> 
-       <div class = "category" > 
-         <p>  Visualises pairings between the most collaborative author and other authors in papers submitted to Arxiv’s General Relativity and Quantum Cosmology category.</p>
-	 <img src="images/graph_collaborators_id.png" alt="Graph of collaborator's ids" >
-	 <img src="images/graph_collaborators_numbers.png" alt="Graph of collaborator's numbers">
-       </div> 
-
-      <!-- Project Four -->
-      <div id="project4"> </div>
-      <h3 class ="category_heading" >Supervised machine learning models
-           <a href="https://github.com/melanie-brennan/supervised_machine_learning_models" class="alignright">  
-           <img src="images/GitHub-Mark-64px.png" alt="Github logo" width="64" height="64"></a>
-      </h3> 
-       <div class = "category" > 
-         <p>Using data from the High Time Resolution Universe Survey (South), five supervised machine learning algorithms are used to classify pulsar and non-pulsar stars.</p>
-	 <img src="images/LC_Random_Forest_error_rate_metric.png" alt="Learning curve displaying random forest error with an increasing propotion of training data" >
-	 <img src="images/ROC_Random_Forest_Classifier.png" alt="ROC curve for random forest classifier">
-	 <img src="images/LC_Support_Vector_Machine_error_rate_metric.png" alt="Learning curve displaying support_vector_machine error with an increasing propotion of training data" >
-	 <img src="images/ROC_Support_Vector_Machine_Classifier.png" alt="ROC curve for support vector machine classifier">
-       </div> 
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
 
 
-
-
-   </div>
-  <div>
-
-	
-
-
-
-  </body>
 </html>
