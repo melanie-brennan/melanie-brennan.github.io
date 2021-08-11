@@ -5,7 +5,7 @@
 }
 
 body { 
-margin: 0;
+  margin: 0;
 }
 
 
@@ -13,8 +13,6 @@ margin: 0;
   width: 65%;
   display: table;
   margin: 0 auto;
-
-
 }
 
 #inner_content {
@@ -35,18 +33,14 @@ margin: 0;
 .alignleft {
    float: left;
    font-size: large;
-
-  color: blue;
-
-
-
+   color: blue;
 }
+
 
 .alignright {
 	float: right;
         font-size: large;
         color: blue;
-
 }
 
 
@@ -67,7 +61,7 @@ margin: 0;
 
 .navbar a {
   float: right;
-   font-size: large;
+  font-size: large;
   color: white;
   text-align: center;
   padding: 1em 1em 1em 1em;
@@ -122,7 +116,7 @@ margin: 0;
 }
 
 .container {
-  border-color: pink;
+  border-color: yellow;
   border-width: 4px;
 }
 
