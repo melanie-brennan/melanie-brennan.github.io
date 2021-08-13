@@ -192,7 +192,7 @@ body {
 
 .category_heading {
   border-style: solid;
-  border-color: yellow;
+  border-color: #009090;
   border-width: 1px;
   background-color: #97c7c7;
   margin: 1em 0em 1em 0em;
@@ -203,13 +203,22 @@ body {
 }
 
 .container {
-  border: yellow;
+  border: #009090;
 }
 
 
 .category {
   border-style: solid;
-  border-color: green;
+  border-color: #009090;
+  border-width: 1px;
+  margin: 0em 0em 1em 0em;
+  padding: 0em 1em 0em 1em;
+  overflow:hidden;
+}
+
+.category_white {
+  border-style: solid;
+  border-color: #ffffff;
   border-width: 1px;
   margin: 0em 0em 1em 0em;
   padding: 0em 1em 0em 1em;
